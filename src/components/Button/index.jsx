@@ -1,8 +1,13 @@
 import { Container } from './styles';
 
-export function Button() {
+export function Button({ title, loading = false, ...rest}) {
 
   return (
-    <Container type="button">Entre aqui</Container>
+    <Container
+     type="button"
+     disabled={loading}
+     {...rest}>
+       {loading ? 'Carregando...' : title}
+    </Container>
   );
-}
+}Container
