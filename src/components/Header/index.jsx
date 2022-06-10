@@ -1,5 +1,5 @@
-import { Container, Profiler } from "./styles";
-
+import { RiShutDownLine } from 'react-icons/ri'
+import { Container, Profiler, Logout } from "./styles";
 export function Header() {
 
   return (
@@ -12,6 +12,9 @@ export function Header() {
           <strong>Johnny Deymisson</strong>
         </div>
       </Profiler>
+      <Logout>
+        <RiShutDownLine/>
+      </Logout>
     </Container>
   )
 };

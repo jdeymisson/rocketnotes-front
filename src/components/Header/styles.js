@@ -43,3 +43,13 @@ export const Profiler = styled.div`
     }
   };
 `;
+
+export const Logout = styled.button`
+  border: none;
+  background: none;
+
+  > svg {
+    color: ${({theme}) => theme.COLORS.GRAY_100};
+    font-size: 24px;
+  }
+`
