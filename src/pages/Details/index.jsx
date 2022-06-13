@@ -16,7 +16,8 @@ export function Details() {
           <ButtonText title="Excluir nota" />
 
           <h1>Introdução ao React</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere delectus quam suscipit repellendus, fugit aspernatur quibusdam doloremque cumque sint sed ullam, eaque, veniam deserunt. Dolorum, harum. Voluptates doloremque at incidunt.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere delectus quam suscipit repellendus, fugit aspernatur quibusdam doloremque cumque sint sed ullam, eaque, veniam deserunt.
+            Dolorum, harum. Voluptates doloremque at incidunt.</p>
           <Section title= "Links úteis">
             <Links>
               <li><a href="http://https://www.rocketseat.com.br/" target="_blank">https://www.rocketseat.com.br/</a></li>
