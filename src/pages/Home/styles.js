@@ -45,6 +45,8 @@ export const Menu = styled.ul`
 export const Search = styled.div`
  grid-area: search;
 
+ padding: 64px 64px 0px;
+
 `
 export const Content = styled.div`
  grid-area: content;
@@ -58,7 +60,6 @@ export const NewNote = styled.button`
   justify-content: center;
   gap: 8px;
 
-  /* font-size: 16px; */
   line-height: 26px;
 
   background-color: ${({theme}) => theme.COLORS.ORANGE};
