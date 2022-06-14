@@ -60,7 +60,7 @@ export const Content = styled.div`
     width: 6px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+  background-color: ${({theme}) => theme.COLORS.ORANGE};
   border-radius: 1px;
 }
 

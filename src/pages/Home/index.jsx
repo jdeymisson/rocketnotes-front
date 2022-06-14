@@ -32,7 +32,8 @@ export function Home() {
           tags: [
             {id: '1', name:'Styled-components'}, 
             {id: '2', name:'Express'},
-            ]}}></Note>
+            ]
+          }}></Note>
             
         </Section>
       </Content>
